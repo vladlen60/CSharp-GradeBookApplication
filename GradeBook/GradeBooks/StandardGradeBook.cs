@@ -1,7 +1,5 @@
 ﻿using GradeBook.Enums;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace GradeBook.GradeBooks
 {
@@ -9,7 +7,7 @@ namespace GradeBook.GradeBooks
     {
         public StandardGradeBook(string name) : base(name)
         {
-            GradeBookType Type = GradeBookType.Standard;
+            Type = GradeBookType.Standard;
         }
     }
 }
